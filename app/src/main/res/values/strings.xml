@@ -1,3 +1,4 @@
-<resources>
-    <string name="app_name">RoomDatabase</string>
-</resources>
+    <resources>
+        <string name="entry_siswa">Tambah Siswa</string>
+
+    </resources>
