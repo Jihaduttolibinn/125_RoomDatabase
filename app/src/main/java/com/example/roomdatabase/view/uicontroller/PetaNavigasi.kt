@@ -42,4 +42,8 @@ fun HostNavigasi(
         composable(DestinasiEntry.route){
             EntrySiswaScreen(navigateBack = { navController.popBackStack()})
         }
-
+        composable(route = DestinasiDetailSiswa.routeWithArgs,
+            arguments = listOf(navArgument(itemIdArg){
+                type = NavType.IntType
+            })
+        )
